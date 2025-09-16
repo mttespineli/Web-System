@@ -64,5 +64,15 @@ hoverImage.addEventListener('mouseout', () => {
     hoverImage.src = originalSrc;
 });
 
+const clickImage = document.getElementById('hoverImage'); // Using the same image as the previous example
+const clickCountSpan = document.getElementById('clickCount');
+let clickCount = 0;
+
+clickImage.addEventListener('click', () => {
+    clickCount++;
+    clickCountSpan.textContent = clickCount;
+});
+
+
 
 
