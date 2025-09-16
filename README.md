@@ -1,1 +1,91 @@
-This is a Webpage about the Nissan GTR R34
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nissan GT-R R34</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Nissan GT-R R34</h1>
+        <p>The **Nissan Skyline GT-R R34**, an automotive icon, is celebrated for its powerful engineering and timeless design. Introduced in 1999, it quickly earned its legendary status, especially among enthusiasts and in popular media.</p>
+        <p>This page is a tribute to the "Godzilla" of JDM cars, showcasing its beauty and key specifications. 🇯🇵</p>
+        <button id="changeColorBtn">Change Heading Color</button>
+        <p id="carFact" style="display: none;">Did you know? The "Godzilla" nickname was given to the GT-R by an Australian automotive magazine!</p>
+        <button id="toggleFactBtn">Show/Hide a Car Fact</button>
+    </header>
+
+    <div class="section">
+    <h2>Gallery</h2>
+    <div class="filter-buttons">
+        <button id="allBtn">All</button>
+        <button id="blueBtn">Blue</button>
+        <button id="silverBtn">Silver</button>
+    </div>
+    <div class="gallery-container">
+        <div class="gallery-item" data-color="blue"><img src="https://i.ibb.co/CBy126b/r34-1.jpg" alt="R34 in Bayside Blue"></div>
+        <div class="gallery-item" data-color="silver"><img src="https://i.ibb.co/V9714X9/r34-2.jpg" alt="Rear view of an R34"></div>
+        <div class="gallery-item" data-color="blue"><img src="https://i.ibb.co/Q8Jt6z0/r34-3.jpg" alt="Engine bay of the R34"></div>
+        <div class="gallery-item" data-color="silver"><img src="https://i.ibb.co/C1V1R21/r34-4.jpg" alt="R34 V-Spec II"></div>
+    </div>
+</div>
+
+    <div class="gallery-item"><img id="hoverImage" src="https://i.ibb.co/CBy126b/r34-1.jpg" alt="R34 in Bayside Blue"></div>
+    
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    <p>This car has been clicked <span id="clickCount">0</span> times!</p>
+
+    <div class="section">
+        <h2>Key Specifications</h2>
+        <table class="specs-table">
+            <thead>
+                <tr>
+                    <th>Attribute</th>
+                    <th>Detail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>**Engine**</td>
+                    <td>RB26DETT (2.6L Inline-6 Twin-Turbo)</td>
+                </tr>
+                <tr>
+                    <td>**Horsepower**</td>
+                    <td>~276 hp (advertised), ~330 hp (actual)</td>
+                </tr>
+                <tr>
+                    <td>**Torque**</td>
+                    <td>293 lb-ft (392 N·m)</td>
+                </tr>
+                <tr>
+                    <td>**Transmission**</td>
+                    <td>6-speed manual (Getrag)</td>
+                </tr>
+                <tr>
+                    <td>**Drivetrain**</td>
+                    <td>ATTESA E-TS PRO All-Wheel Drive</td>
+                </tr>
+                <tr>
+                    <td>**Weight**</td>
+                    <td>~1,560 kg (~3,439 lbs)</td>
+                </tr>
+                <tr>
+                    <td>**Production Years**</td>
+                    <td>1999–2002</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
