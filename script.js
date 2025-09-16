@@ -29,4 +29,15 @@ window.addEventListener('click', (event) => {
     if (event.target === modal) {
         closeModal();
     }
+    
+    const heading = document.querySelector('h1');
+const changeColorBtn = document.getElementById('changeColorBtn');
+const colors = ['#FF5733', '#33FF57', '#3357FF', '#FF33A1'];
+let currentColorIndex = 0;
+
+changeColorBtn.addEventListener('click', () => {
+    currentColorIndex = (currentColorIndex + 1) % colors.length;
+    heading.style.color = colors[currentColorIndex];
 });
+});
+
