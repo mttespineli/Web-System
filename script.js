@@ -52,4 +52,17 @@ toggleFactBtn.addEventListener('click', () => {
     }
 });
 
+const hoverImage = document.getElementById('hoverImage');
+const originalSrc = hoverImage.src;
+const newSrc = 'https://i.ibb.co/C1V1R21/r34-4.jpg'; // A different R34 image
+
+hoverImage.addEventListener('mouseover', () => {
+    hoverImage.src = newSrc;
+});
+
+hoverImage.addEventListener('mouseout', () => {
+    hoverImage.src = originalSrc;
+});
+
+
 
