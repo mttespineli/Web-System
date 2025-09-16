@@ -38,6 +38,18 @@ let currentColorIndex = 0;
 changeColorBtn.addEventListener('click', () => {
     currentColorIndex = (currentColorIndex + 1) % colors.length;
     heading.style.color = colors[currentColorIndex];
+    });
 });
+
+const carFact = document.getElementById('carFact');
+const toggleFactBtn = document.getElementById('toggleFactBtn');
+
+toggleFactBtn.addEventListener('click', () => {
+    if (carFact.style.display === 'none') {
+        carFact.style.display = 'block';
+    } else {
+        carFact.style.display = 'none';
+    }
 });
+
 
