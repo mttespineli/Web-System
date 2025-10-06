@@ -1,0 +1,99 @@
+/* --- New Styles to Support Multi-Page Structure --- */
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #21262d; 
+    padding: 0.75rem 0;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: #79c0ff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+/* Contact Form Container Styling (for contact.html) */
+.contact-form-container {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #161b22;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+.contact-form-container label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #c9d1d9;
+}
+
+.contact-form-container input[type="text"],
+.contact-form-container input[type="email"],
+.contact-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #30363d;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+.contact-form-container button {
+    background-color: #58a6ff;
+    color: #0d1117;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.contact-form-container button:hover {
+    background-color: #79c0ff;
+}
+
+/* Thank You Page Styling (for thankyou.html) */
+.thankyou-message {
+    text-align: center;
+    padding: 5rem;
+    background-color: #161b22;
+    max-width: 800px;
+    margin: 3rem auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+.thankyou-message h1 {
+    color: #33FF57; 
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
