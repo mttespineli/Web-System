@@ -1,6 +1,3 @@
-/* --- New Styles to Support Multi-Page Structure --- */
-
-/* Navigation Bar Styling */
 nav {
     background-color: #21262d; 
     padding: 0.75rem 0;
@@ -34,7 +31,7 @@ nav ul li a:hover {
     padding-bottom: 5px;
 }
 
-/* Contact Form Container Styling (for contact.html) */
+
 .contact-form-container {
     max-width: 600px;
     margin: 3rem auto;
@@ -82,7 +79,6 @@ nav ul li a:hover {
     background-color: #79c0ff;
 }
 
-/* Thank You Page Styling (for thankyou.html) */
 .thankyou-message {
     text-align: center;
     padding: 5rem;
@@ -97,3 +93,4 @@ nav ul li a:hover {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
+
