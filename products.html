@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="design.css">
+
+    <!-- Styles pulled from index.html for consistent look -->
+    <style>
+        /* Ensures the background reflects the dark, car-themed palette */
+        body {
+            background-color: #0a0e14; /* Deep, almost black base */
+            color: #c9d1d9;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* General content section styling */
+        .section {
+            max-width: 1000px;
+            margin: 3rem auto;
+            padding: 2rem;
+            background: #161b22;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            border: 1px solid #30363d;
+        }
+        .section h2 {
+             color: #79c0ff;
+             border-bottom: 2px solid #30363d;
+             padding-bottom: 0.5rem;
+             margin-bottom: 1.5rem;
+        }
+
+        /* Header Styling */
+        header {
+            padding: 2rem 2rem;
+            text-align: center;
+            background: linear-gradient(145deg, #10151f 0%, #0a0e14 100%); 
+            border-bottom: 3px solid #0072C6;
+            margin-bottom: 2rem;
+        }
+        header h1 {
+            color: #ffffff;
+            text-shadow: 0 0 10px rgba(0, 114, 198, 0.7);
+        }
+
+        /* Product Card Styling (adapted from feature-card) */
+        .product-card {
+            width: 45%;
+            min-width: 280px;
+            padding: 25px;
+            margin-bottom: 20px;
+            background: #10151f; /* Slightly darker than section background */
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid #30363d;
+            text-align: center;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7), 0 0 15px rgba(0, 114, 198, 0.5);
+        }
+        .product-card h3 {
+            color: #79c0ff;
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .product-card img {
+            width: 100%; 
+            height: auto; 
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="WEB_MAIN.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Products</h1>
+    </header>
+
+    <div class="section" style="text-align: center;">
+        <h2>R34 Memorabilia</h2>
+        <p style="font-size: 1.1rem; color: #aeb8c3;">Commemorate the legend with high-quality merchandise inspired by the Nissan GT-R R34.</p>
+        <div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 2rem;">
+            
+            <div class="product-card">
+                <h3>1:18 Die-Cast Models</h3>
+                <img src="https://m.media-amazon.com/images/I/611QaSn0RtL._AC_SX679_.jpg" alt="Die-Cast Model">
+                <a href="https://www.lazada.com.ph/products/kaido-house-x-mini-gt-164-nissan-skyline-gt-r-r34-kaido-works-v2-aero-shinjuku-v2-i5119988406-s30225015558.html?from_gmc=1&fl_tag=1" style="color: #0072C6; font-weight: bold; text-decoration: none;">Shop Now →</a>
+            </div>
+            
+            <div class="product-card">
+                <h3>GT-R Apparel Collection</h3>
+                <img src="https://i.ebayimg.com/images/g/4csAAOSwWO5kgM9I/s-l1600.webp" alt="GT-R Shirt">
+                <a href="https://www.ebay.com.au/itm/385666871437?srsltid=AfmBOoo12dGPZ4UGayjwK0Ht2ytj24MzysEc7xFRYnvA7HRYdyBLbTOg" style="color: #0072C6; font-weight: bold; text-decoration: none;">View Collection →</a>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
